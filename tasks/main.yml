@@ -1,6 +1,6 @@
 - name: modify repository
   apt_repository:
-    repo: 'ppa:openjdk-r/ppa'
+    repo: "ppa:openjdk-r/ppa"
     state: present
 
 - name: install java
